@@ -80,7 +80,10 @@ public class NavigatorActivity extends AppCompatActivity
             fragment= new MapsFragment();
             insertarfragment();
 
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.desarrollo) {
+            fragment= new DesarrolloFragment();
+            insertarfragment();
+
 
         } else if (id == R.id.nav_slideshow) {
 
